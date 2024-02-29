@@ -1,0 +1,43 @@
+.cardOrder {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template:
+    "a a b c c c"
+    "a a d d d d"
+    "e e e f f f"
+    "e e e f f f"
+    "g g g h h h";
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.opt1 {
+  grid-area: a;
+}
+
+.opt2 {
+  grid-area: b;
+}
+
+.opt3 {
+  grid-area: c;
+}
+
+.opt4 {
+  grid-area: d;
+}
+
+.opt5 {
+  grid-area: e;
+}
+
+.opt6 {
+  grid-area: f;
+}
+
+.opt7 {
+  grid-area: g;
+}
+
+.opt8 {
+  grid-area: h;
+}

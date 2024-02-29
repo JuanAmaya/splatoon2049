@@ -1,0 +1,27 @@
+[
+  {
+    "id": 0,
+    "name": "schedule",
+    "url": "/"
+  },
+  {
+    "id": 1,
+    "name": "salmon run",
+    "url": "/salmonrun"
+  },
+  {
+    "id": 2,
+    "name": "challenges",
+    "url": "/challenges"
+  },
+  {
+    "id": 3,
+    "name": "gear",
+    "url": "/gear"
+  },
+  {
+    "id": 4,
+    "name": "splatfest",
+    "url": "/splatfest"
+  }
+]

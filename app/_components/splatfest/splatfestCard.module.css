@@ -1,0 +1,64 @@
+.splatfestCardOrder {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template:
+    "a b b"
+    "a c c"
+    "d e f"
+    "g g g"
+    "h i j"
+    "k l m";
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.opt1 {
+  grid-area: a;
+}
+
+.opt2 {
+  grid-area: b;
+}
+
+.opt3 {
+  grid-area: c;
+}
+
+.opt4 {
+  grid-area: d;
+}
+
+.opt5 {
+  grid-area: e;
+}
+
+.opt6 {
+  grid-area: f;
+}
+
+.opt7 {
+  grid-area: g;
+}
+
+.opt8 {
+  grid-area: h;
+}
+
+.opt9 {
+  grid-area: i;
+}
+
+.opt10 {
+  grid-area: j;
+}
+
+.opt11 {
+  grid-area: k;
+}
+
+.opt12 {
+  grid-area: l;
+}
+
+.opt13 {
+  grid-area: m;
+}

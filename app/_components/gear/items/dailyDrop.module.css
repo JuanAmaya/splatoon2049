@@ -1,0 +1,22 @@
+.dailyDropOrder {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template:
+    "a a a a a b b b b b"
+    "a a a a a b b b b b"
+    "c c c c c b b b b b";
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.opt1 {
+  grid-area: a;
+}
+
+.opt2 {
+  grid-area: b;
+}
+
+.opt3 {
+  grid-area: c;
+}

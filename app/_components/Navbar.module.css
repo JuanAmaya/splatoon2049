@@ -1,0 +1,37 @@
+.barOrder {
+  --main-brown: #b78477;
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template:
+    "a a c c d d"
+    ". b b e e .";
+}
+
+.opt1 {
+  grid-area: a;
+}
+
+.opt2 {
+  grid-area: b;
+}
+
+.opt3 {
+  grid-area: c;
+}
+
+.opt4 {
+  grid-area: d;
+}
+
+.opt5 {
+  grid-area: e;
+}
+
+.opt1,
+.opt2,
+.opt3,
+.opt4,
+.opt5 {
+  color: var(--main-brown);
+  border: 3px solid var(--main-brown);
+}

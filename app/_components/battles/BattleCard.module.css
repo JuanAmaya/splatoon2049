@@ -1,0 +1,123 @@
+.battleCard {
+  --main-light-green: #8ec1a6;
+  --main-light-orange: #bf9181;
+  --main-light-aqua: #88bcb9;
+  --main-black: #353535;
+  --main-BG: #f9ede6;
+}
+
+.cardOrder {
+  color: var(--main-black);
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template:
+    "a a a a b b"
+    "c c d d e e"
+    "f f f g g g"
+    "f f f g g g"
+    "h h h i i i";
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.mode {
+  grid-area: a;
+}
+
+.nextMode {
+  grid-area: b;
+}
+
+.time {
+  grid-area: c;
+}
+
+.nextTime {
+  grid-area: d;
+}
+
+.upcomingBtn {
+  grid-area: e;
+}
+
+.stage1 {
+  grid-area: f;
+}
+
+.stage2 {
+  grid-area: g;
+}
+
+.stageName1 {
+  grid-area: h;
+  background-color: var(--main-black);
+  color: var(--main-BG);
+}
+
+.stageName2 {
+  grid-area: i;
+  background-color: var(--main-black);
+  color: var(--main-BG);
+}
+
+.regularText {
+  color: var(--main-light-green);
+}
+
+.anarchyText {
+  color: var(--main-light-orange);
+}
+
+.xText {
+  color: var(--main-light-aqua);
+}
+
+.regularBG {
+  background-color: var(--main-light-green);
+  color: var(--main-black);
+}
+
+.anarchyBG {
+  background-color: var(--main-light-orange);
+  color: var(--main-black);
+}
+
+.xBG {
+  background-color: var(--main-light-aqua);
+  color: var(--main-black);
+}
+
+.regularBorder {
+  border-color: var(--main-light-green);
+}
+
+.anarchyBorder {
+  border-color: var(--main-light-orange);
+}
+
+.xBorder {
+  border-color: var(--main-light-aqua);
+}
+
+.regularBtn {
+  border: 3px solid var(--main-light-green);
+}
+
+.regularBtn:hover {
+  background-color: var(--main-light-green);
+}
+
+.anarchyBtn {
+  border: 3px solid var(--main-light-orange);
+}
+
+.anarchyBtn:hover {
+  background-color: var(--main-light-orange);
+}
+
+.xBtn {
+  border: 3px solid var(--main-light-aqua);
+}
+
+.xBtn:hover {
+  background-color: var(--main-light-aqua);
+}

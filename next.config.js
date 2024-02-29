@@ -1,4 +1,23 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    webpack: (config) => {
+        config.module.rules.push({
+            test: /\.svg$/,
+            use: [{ loader: '@svgr/webpack', options: { icon: true } }]
+        });
 
-module.exports = nextConfig
+        return config;
+    },
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'splatoon3.ink',
+                port: '',
+                pathname: '/**'
+            }
+        ]
+    }
+};
+
+module.exports = nextConfig;

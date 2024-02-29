@@ -1,0 +1,42 @@
+.gearCardOrder {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template:
+    ". a b b b"
+    "c d d d e"
+    ". d d d f"
+    ". d d d g"
+    ". h h h .";
+}
+
+.opt1 {
+  grid-area: a;
+}
+
+.opt2 {
+  grid-area: b;
+}
+
+.opt3 {
+  grid-area: c;
+}
+
+.opt4 {
+  grid-area: d;
+}
+
+.opt5 {
+  grid-area: e;
+}
+
+.opt6 {
+  grid-area: f;
+}
+
+.opt7 {
+  grid-area: g;
+}
+
+.opt8 {
+  grid-area: h;
+}
