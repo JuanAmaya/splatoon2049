@@ -1,5 +1,4 @@
 import { Challenges } from "@/public/svgs";
-import Image from "next/image";
 
 export default function ChallengesPage() {
   return (
