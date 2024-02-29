@@ -22,7 +22,7 @@ export default function TeamScore(props: teamScoreProps) {
         <img src={props.icon} alt={props.name} className="w-14" />
       </div>
       <span className="text-4xl w-14 text-primaryBG p-2 rounded-md bg-graySide flex justify-center items-center">
-        {Math.ceil(props.score / 2)}
+        {props.score}
       </span>
     </div>
   );

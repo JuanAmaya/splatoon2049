@@ -47,7 +47,7 @@ export default function SalmonrunCard(props: cardProps) {
         <h2 className="text-4xl">Salmon Run</h2>
       </div>
       <UpcomingTime
-        className={`bg-graySide text-primaryBG rounded-md flex justify-center items-center text-xl ${classes.opt4}`}
+        className={`bg-graySide text-primaryBG rounded-md flex justify-center items-center text-xl p-2 ${classes.opt4}`}
         startTime={props.startTime}
         endTime={props.endTime}
         showDay={true}
@@ -60,7 +60,7 @@ export default function SalmonrunCard(props: cardProps) {
         />
       </div>
       <div
-        className={`bg-graySide text-primaryBG rounded-md flex justify-center items-center ${classes.opt10}`}
+        className={`bg-graySide text-primaryBG rounded-md flex justify-center items-center p-2 ${classes.opt10}`}
       >
         <span className="text-xl">{props.coopStage.name}</span>
       </div>
